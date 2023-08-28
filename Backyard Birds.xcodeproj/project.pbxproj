@@ -216,7 +216,7 @@
 		E081339C2A15718B00151E9A /* Store.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Store.storekit; sourceTree = "<group>"; };
 		E08133A82A15735C00151E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E08133AA2A1574F300151E9A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
-		E0A466C32A153A0E0010173E /* Backyard Birds1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Backyard Birds1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A466C32A153A0E0010173E /* Backyard Birds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Backyard Birds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A466C62A153A0E0010173E /* BackyardBirdsWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackyardBirdsWatchApp.swift; sourceTree = "<group>"; };
 		E0A466C82A153A0E0010173E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E0A466CA2A153A0F0010173E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -358,7 +358,7 @@
 		E0A466C42A153A0E0010173E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0A466C32A153A0E0010173E /* Backyard Birds1.app */,
+				E0A466C32A153A0E0010173E /* Backyard Birds.app */,
 				E0A4674B2A154EAF0010173E /* Widgets.appex */,
 				E0F7709E2A15AA900042CE8B /* Backyard Birds.app */,
 			);
@@ -544,9 +544,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E0A466C22A153A0E0010173E /* Backyard Birds1 */ = {
+		E0A466C22A153A0E0010173E /* Backyard Birds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0A466E82A153A100010173E /* Build configuration list for PBXNativeTarget "Backyard Birds1" */;
+			buildConfigurationList = E0A466E82A153A100010173E /* Build configuration list for PBXNativeTarget "Backyard Birds" */;
 			buildPhases = (
 				E0A466BF2A153A0E0010173E /* Sources */,
 				E0A466C02A153A0E0010173E /* Frameworks */,
@@ -561,14 +561,14 @@
 				E0A4675B2A154EB10010173E /* PBXTargetDependency */,
 				E0F770C02A15AA920042CE8B /* PBXTargetDependency */,
 			);
-			name = "Backyard Birds1";
+			name = "Backyard Birds";
 			packageProductDependencies = (
 				E081339E2A1571DE00151E9A /* BackyardBirdsData */,
 				E08133A22A1571E400151E9A /* BackyardBirdsUI */,
 				E08133A52A1571E900151E9A /* LayeredArtworkLibrary */,
 			);
 			productName = "Backyard Birds";
-			productReference = E0A466C32A153A0E0010173E /* Backyard Birds1.app */;
+			productReference = E0A466C32A153A0E0010173E /* Backyard Birds.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E0A4674A2A154EAF0010173E /* Widgets */ = {
@@ -594,9 +594,9 @@
 			productReference = E0A4674B2A154EAF0010173E /* Widgets.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		E0F7709D2A15AA900042CE8B /* Backyard Birds1 (Watch) */ = {
+		E0F7709D2A15AA900042CE8B /* Backyard Birds (Watch) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0F770C22A15AA920042CE8B /* Build configuration list for PBXNativeTarget "Backyard Birds1 (Watch)" */;
+			buildConfigurationList = E0F770C22A15AA920042CE8B /* Build configuration list for PBXNativeTarget "Backyard Birds (Watch)" */;
 			buildPhases = (
 				E0F7709A2A15AA900042CE8B /* Sources */,
 				E0F7709B2A15AA900042CE8B /* Frameworks */,
@@ -609,7 +609,7 @@
 			dependencies = (
 				E0766CC32A15BF5100DD69B6 /* PBXTargetDependency */,
 			);
-			name = "Backyard Birds1 (Watch)";
+			name = "Backyard Birds (Watch)";
 			packageProductDependencies = (
 				E0F770E62A15B58D0042CE8B /* BackyardBirdsData */,
 				E0F770EA2A15B5910042CE8B /* BackyardBirdsUI */,
@@ -662,8 +662,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E0A466C22A153A0E0010173E /* Backyard Birds1 */,
-				E0F7709D2A15AA900042CE8B /* Backyard Birds1 (Watch) */,
+				E0A466C22A153A0E0010173E /* Backyard Birds */,
+				E0F7709D2A15AA900042CE8B /* Backyard Birds (Watch) */,
 				E0A4674A2A154EAF0010173E /* Widgets */,
 			);
 		};
@@ -801,7 +801,7 @@
 		E0F770C02A15AA920042CE8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = ios;
-			target = E0F7709D2A15AA900042CE8B /* Backyard Birds1 (Watch) */;
+			target = E0F7709D2A15AA900042CE8B /* Backyard Birds (Watch) */;
 			targetProxy = E0F770BF2A15AA920042CE8B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1183,7 +1183,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0A466E82A153A100010173E /* Build configuration list for PBXNativeTarget "Backyard Birds1" */ = {
+		E0A466E82A153A100010173E /* Build configuration list for PBXNativeTarget "Backyard Birds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0A466E92A153A100010173E /* Debug */,
@@ -1201,7 +1201,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0F770C22A15AA920042CE8B /* Build configuration list for PBXNativeTarget "Backyard Birds1 (Watch)" */ = {
+		E0F770C22A15AA920042CE8B /* Build configuration list for PBXNativeTarget "Backyard Birds (Watch)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0F770C32A15AA920042CE8B /* Debug */,

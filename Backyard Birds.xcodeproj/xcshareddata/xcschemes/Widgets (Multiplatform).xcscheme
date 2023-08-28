@@ -30,8 +30,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E0A466C22A153A0E0010173E"
-               BuildableName = "Backyard Birds1.app"
-               BlueprintName = "Backyard Birds1"
+               BuildableName = "Backyard Birds.app"
+               BlueprintName = "Backyard Birds"
                ReferencedContainer = "container:Backyard Birds.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E0A466C22A153A0E0010173E"
-            BuildableName = "Backyard Birds1.app"
-            BlueprintName = "Backyard Birds1"
+            BuildableName = "Backyard Birds.app"
+            BlueprintName = "Backyard Birds"
             ReferencedContainer = "container:Backyard Birds.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -97,8 +97,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E0A466C22A153A0E0010173E"
-            BuildableName = "Backyard Birds1.app"
-            BlueprintName = "Backyard Birds1"
+            BuildableName = "Backyard Birds.app"
+            BlueprintName = "Backyard Birds"
             ReferencedContainer = "container:Backyard Birds.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
